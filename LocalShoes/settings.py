@@ -28,7 +28,7 @@ SECRET_KEY = 'e_j^qcz%!h6$dnds785mr)$&%=i2ci)girn+3-w(o0w7(_*69^'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['gentle-harbor-23056.herokuapp.com']
 
 
 # Application definition
