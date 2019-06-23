@@ -3,7 +3,7 @@ from shoes import views
 
 urlpatterns = [
     path('', views.index),
-    path('shop/', views.shop),
+    path('shop/', views.shop, name = 'shop'),
     path('about/', views.about),
     path('contact/', views.contact),
     path('checkout/', views.checkout),
